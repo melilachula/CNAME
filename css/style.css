@@ -1,0 +1,196 @@
+/*
+The final project will be either a website for a portfolio, a story, or on a
+subject you care deeply about. This assignment will be broken up into smaller
+segments:
+
+Deploying a website (50 Points)
+
+Design/Responsiveness (50 Points)
+
+Plugins (50 Points) EC
+
+Posting and formatting content Your grade will be based on the following
+parameters:
+
+Creativity (50 Points)
+Making sure your images and content express the intent of your site
+Change the theme you chose
+Use plugins, colors, and fonts, to change the theme
+Design and layout (project is professional in appearance)
+
+Minimum of 5 posts/pages (100 Points)
+
+Make sure that images are properly scaled and fit in your layout
+
+Content quality – Clear message (what are you saying)
+
+Creative Brief & Wireframe
+
+List 5 portfolios you admire
+
+What’s a creative brief?
+
+ In the best cases, a creative brief is a document created through initial
+ meetings, interviews, readings and discussions between a client and designer
+ before any work begins. Throughout the project, the creative brief continues
+ to inform and guide the work. A good creative brief will answer these
+ questions:
+ * What is this project?
+ * Who is it for?
+ * Why are we doing it?
+ * What needs to be done? By whom? By when?
+ * Where and how will it be used?
+
+ [The 10 most important things to include in a creative brief]
+ (https://www.mohawkconnects.com/feltandwire/2011/02/08/the-creative-brief-10-things-it-must-include/)
+ 1. Background Summary: Who is the client? What is the product or service? What
+ are the strengths, weaknesses, opportunities and threats (or SWOTs) involved
+ with this product or service? Are there existing research, reports and other
+ documents that help you understand the situation?
+ 2. Overview: What is the project? What are we designing and why? Why do we
+ need this project? What’s the opportunity?
+ 3. Drivers: What is our goal for this project? What are we trying to achieve?
+ What is the purpose of our work? What are our top three objectives?
+ 4. Audience: Who are we talking to? What do they think of us? Why should they
+ care?
+ 5. Competitors: Who is the competition? What are they telling the audience
+ that we should be telling them? SWOT analysis on them? What differentiates us
+ from them?
+ 6. Tone: How should we be communicating? What adjectives describe the feeling
+ or approach?
+ 7. Message: What are we saying with this piece exactly? Are the words already
+ developed or do we need to develop them? What do we want audiences to take away?
+ 8. Visuals: Are we developing new images or picking up existing ones? If we
+ are creating them, who/what/where are we photographing or illustrating? And
+ why?
+ 9. Details: Any mandatory information that must be included? List of
+ deliverables? Preconceived ideas? Format parameters? Limitations and
+ restrictions? Timeline, schedule, budget?
+ 10. People: Who are we reporting to? Who exactly is approving this work? Who
+ needs to be informed of our progress? By what means?
+
+ONLINE MARKETING AND SEO PLAN (50 POINTS)
+
+Come up with a marketing plan for your website. Explain your business rationale
+and how you are going to reach your target audience? Based on your objectives,
+come up with a marketing recommendation for your site. Choose either twitter,
+google adwords, or facebook. List what keywords are you going to buy? What is
+the duration of your campaign and total cost?
+
+Include screenshots of your campaign as well as your write up in a blog post or
+add in your hw index.
+
+Remember to also put Google analytics on your site (25 POINTS)
+*/
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  padding: 10px;
+  background-color: black;
+}
+
+ul {
+  list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   font-family: 'Roboto', sans-serif;
+}
+
+li {
+  float: left;
+  padding: 10px;
+}
+
+li a {
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+}
+
+li a:hover{
+  font-size: larger;
+}
+
+header {
+  grid-area: header;
+}
+
+main {
+    grid-area: main;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 4fr;
+    padding-bottom: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 25% 25% 25%;
+  align-items: stretch;
+
+}
+
+.bigger{
+  width: 200%;
+  height: 100%;
+}
+
+.container {
+  display: grid;
+}
+
+h1 {
+  font-family: UnifrakturMaguntia;
+  font-size: 180px;
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  font-family: Pirata One;
+  font-size: 100px;
+  color: white;
+  text-align: center;
+}
+
+h3 {
+  font-family: Pirata One;
+  font-size: 75px;
+  color: white;
+  text-align: left;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
