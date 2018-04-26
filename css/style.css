@@ -1,30 +1,19 @@
 /*
-The final project will be either a website for a portfolio, a story, or on a
-subject you care deeply about. This assignment will be broken up into smaller
-segments:
+Creative Brief: 50 Points
 
-Deploying a website (50 Points)
+Working domain: 50 points
 
-Design/Responsiveness (50 Points)
+Design/Responsiveness: 100 points
 
-Plugins (50 Points) EC
+Jquery: 100 points
 
-Posting and formatting content Your grade will be based on the following
-parameters:
+Creativity: 50 points
 
-Creativity (50 Points)
-Making sure your images and content express the intent of your site
-Change the theme you chose
-Use plugins, colors, and fonts, to change the theme
-Design and layout (project is professional in appearance)
+5 Pages: 100 points
 
-Minimum of 5 posts/pages (100 Points)
+SEO plan: 50 points
 
-Make sure that images are properly scaled and fit in your layout
-
-Content quality – Clear message (what are you saying)
-
-Remember to also put Google analytics on your site (25 POINTS)
+Site Content: 25 points
 */
 
 body {
@@ -172,27 +161,6 @@ p {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
-}
-
-img:hover {
-    /* Start the shake animation and make the animation last for 0.5 seconds */
-    animation: shake 0.5s;
-    /* When the animation is finished, start again */
-    animation-iteration-count: infinite;
-}
-
-@keyframes shake {
-    0% { transform: translate(1px, 1px) rotate(0deg); }
-    10% { transform: translate(-1px, -2px) rotate(-1deg); }
-    20% { transform: translate(-3px, 0px) rotate(1deg); }
-    30% { transform: translate(3px, 2px) rotate(0deg); }
-    40% { transform: translate(1px, -1px) rotate(1deg); }
-    50% { transform: translate(-1px, 2px) rotate(-1deg); }
-    60% { transform: translate(-3px, 1px) rotate(0deg); }
-    70% { transform: translate(3px, 1px) rotate(-1deg); }
-    80% { transform: translate(-1px, -1px) rotate(1deg); }
-    90% { transform: translate(1px, 2px) rotate(0deg); }
-    100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
