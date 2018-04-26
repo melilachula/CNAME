@@ -140,6 +140,11 @@ p {
   display: block;
 }
 
+.image2 {
+  height: 2px;
+  width: inherit;
+}
+
 .overlay {
   position: absolute;
   top: 0;
