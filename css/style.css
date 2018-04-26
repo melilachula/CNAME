@@ -115,11 +115,6 @@ p {
   display: grid;
 }
 
-.responsive {
-    width: 100%;
-    height: auto;
-}
-
 .box{
   margin-top: 20px;
   margin-bottom: 20px;
